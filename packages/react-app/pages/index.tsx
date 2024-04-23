@@ -35,7 +35,7 @@ export default function Home() {
                 className={styles.ctaButton}
                 onClick={() => router.push("/dash")}
             >
-            Create Trip
+            Create Expense
             </button>
             
             {isConnected ? (

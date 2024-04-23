@@ -30,12 +30,12 @@ const Dash: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.grid}>
           <a className={styles.card} onClick={() => router.push("/trips")}>
-            <h2>🚌 See Your Trips &rarr;</h2>
-            <p>Explore current and past trips you and your frens have taken</p>
+            <h2>🚌 See Your Expenses &rarr;</h2>
+            <p>Explore current and past expenses you and your frens have shared</p>
           </a>
 
           <a className={styles.card} onClick={() => router.push("/createTrip")}>
-            <h2>✨ Create a Trip &rarr;</h2>
+            <h2>✨ Create an Expense &rarr;</h2>
             <p>Venture forth with your frens on a new adventure</p>
           </a>
         </div>

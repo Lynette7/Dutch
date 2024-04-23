@@ -5,13 +5,13 @@ import styles from "../styles/Trips.module.css";
 const ViewTrip: NextPage = () => {
   return (
     <div className={styles.container}>
-      <h2>View Trip</h2>
+      <h2>View Expense</h2>
       <ul>
         <li>
         </li>
       </ul>
 
-      <button>End Trip</button>
+      <button>End Expense</button>
     </div>
   );
 };

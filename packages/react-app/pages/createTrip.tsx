@@ -88,7 +88,7 @@ const CreateTrip = () => {
       <div className={styles.container}>
         <div className={styles.main}>
           <h1>
-            Create a Trip <span>🎉</span>
+            Create an Expense <span>🎉</span>
           </h1>
           {isLoading && <div>Loading...</div>}
           {!contractAddress && !isLoading && (
@@ -106,13 +106,13 @@ const CreateTrip = () => {
               >
                 <Form>
                   <label htmlFor="tripName">
-                    <h2>Trip Name</h2>
+                    <h2>Expense Name</h2>
                   </label>
                   <Field
                     style={{ width: "40vw", height: "2rem" }}
                     id="tripName"
                     name="tripName"
-                    placeholder="ETH Waterloo 2023"
+                    placeholder="Trip to Mombasa"
                   />
 
                   <button type="submit">Submit</button>
@@ -151,7 +151,7 @@ const CreateTrip = () => {
                     Fren1
                   </label>
                   <Image
-                    src="/Nouns.png"
+                    src="/../public/3.svg"
                     height={60}
                     width={70}
                     alt="Dutch logo"

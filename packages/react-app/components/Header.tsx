@@ -54,7 +54,7 @@ export default function Header() {
                                         alt="Celo Logo"
                                     /> */}
                                     <Image
-                                        src="/dutch-logo.svg"
+                                        src="/3.svg"
                                         height={48}
                                         width={180}
                                         alt="Dutch logo"
