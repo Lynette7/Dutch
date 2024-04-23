@@ -1,0 +1,42 @@
+.header {
+  /* display: flex; */
+  /* width: calc(100% - 20px); */
+  /* justify-content: space-between; */
+  /* padding: 0 20px; */
+  /* height: 100px;
+  position: fixed; */
+  /* top: 10px; */
+  /* left: 10px; */
+  /* right: 10px; */
+  background-color: #00a6ff;
+}
+
+.header h1 {
+  margin: 0;
+  display: inline-block;
+  font-size: 48px;
+  line-height: 0;
+}
+
+.titleSection {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.titleLink {
+  cursor: pointer;
+}
+
+.subtitleLink {
+  display: inline-block;
+  margin-left: 48px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.connectSection {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
